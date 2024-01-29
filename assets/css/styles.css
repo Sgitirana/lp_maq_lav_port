@@ -1057,3 +1057,9 @@ input {
     height: 640px;
   }
 }
+
+/* Alinhar textos e imagens */
+.text-align {
+  text-align: center;
+}
+
