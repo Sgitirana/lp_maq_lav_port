@@ -302,6 +302,7 @@ input {
   height: 100vh;
   object-fit: cover;
   object-position: 83%;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__container {
@@ -309,6 +310,7 @@ input {
   height: calc(100vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__data-subtitle, 
@@ -323,23 +325,27 @@ input {
   display: block;
   font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-0-75);
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__data-title {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__social {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__social-link {
   font-size: 1.2rem;
   width: max-content;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__info {
@@ -352,6 +358,7 @@ input {
   right: 0;
   bottom: 1rem;
   width: 228px;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__info-title {
@@ -359,23 +366,28 @@ input {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-0-75);
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__info-button {
   font-size: var(--smaller-font-size);
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__info-overlay {
   overflow: var(--img-hidden);
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__info-img {
   width: 145px;
   transition: var(--img-transition);
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .home__info-img:hover {
   transform: var(--img-scale);
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 /*=============== BUTTONS ===============*/
@@ -870,6 +882,7 @@ input {
   .nav__link {
     color: var(--white-color);
     text-transform: initial;
+    text-shadow: 0.1em 0.1em 0.2em black;
   }
   .nav__link:hover {
     color: var(--white-color);
@@ -884,6 +897,7 @@ input {
   .nav__list {
     flex-direction: row;
     column-gap: 4rem;
+    text-shadow: 0.1em 0.1em 0.2em black;
   }
   .nav__toggle, .nav__close {
     display: none;
@@ -1062,4 +1076,3 @@ input {
 .text-align {
   text-align: center;
 }
-
